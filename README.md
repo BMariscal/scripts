@@ -1,7 +1,7 @@
 # scripts
 
 ### [autofill](https://github.com/BMariscal/scripts/blob/master/auto_fill.py):
-Script uses Selenium and chromedriver. The script automatically logs you into Reddit. [Good resource to aid in customization.](http://selenium-python.readthedocs.io/locating-elements.html)
+Script uses Selenium and chromedriver. The script automatically logs you into Reddit. [Good resource to aid in script customization.](http://selenium-python.readthedocs.io/locating-elements.html)
 
 
 ### [catching bart](https://github.com/BMariscal/python_programming_language/tree/master/lesson_1):
