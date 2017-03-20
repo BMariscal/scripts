@@ -12,5 +12,6 @@ Scripts were modified by me to parse the <b>bart api</b> (the original lesson sc
     gives you the route schedule times for the route 1 bart (PITT station to MLBR).
 
  ##### [Second script](https://github.com/BMariscal/python_programming_language/blob/master/lesson_1/cmd_catching_bart.py)
-     does the same as the script above but you are able to change the api url from the command line, making the script customizable and more flexible.
+     does the same as the script above but you are able to change the api url from the command line,
+     making the script customizable and more flexible.
  
