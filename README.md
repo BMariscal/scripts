@@ -1,10 +1,10 @@
 # scripts
 
-### [autofill](https://github.com/BMariscal/scripts/blob/master/auto_fill.py):
+## [autofill](https://github.com/BMariscal/scripts/blob/master/auto_fill.py):
 Script uses Selenium and chromedriver. The script automatically logs you into Reddit. [Good resource to aid in script customization.](http://selenium-python.readthedocs.io/locating-elements.html)
 
 
-### [catching bart](https://github.com/BMariscal/python_programming_language/tree/master/lesson_1):
+## [catching bart](https://github.com/BMariscal/python_programming_language/tree/master/lesson_1):
 
 Scripts use the <b>bart api</b>. The bart api uses a standard XML output. <em>I used urllib to access the api data and used the ElementTree library to manipulate XML</em>.
 
