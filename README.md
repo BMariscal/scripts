@@ -15,3 +15,7 @@ Scripts use the <b>bart api</b>. The bart api uses a standard XML output. <em>I 
      does the same as the script above but you are able to change the api url from the command line,
      making the script customizable and more flexible.
  
+ 
+ 
+ ## [profanity filter](https://github.com/BMariscal/scripts/tree/master/profanityFilter) :
+ Script filters profanities from text file. 
