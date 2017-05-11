@@ -1,5 +1,5 @@
 # This script automatically logs you into Reddit. Just change the chromedriver path and the username/password
-# 1st: install selenium. Selenium fills forms and clicks buttons
+# 1st: install selenium. Selenium fills forms and clicks buttons for you
 # 2nd: install chromedriver to interface with the chrome browser
 
 import time
