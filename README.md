@@ -22,5 +22,5 @@ Scripts use the <b>bart api</b>. The bart api uses a standard XML output. <em>I 
 
 
 ## [file upload progress tracker](https://github.com/BMariscal/scripts/blob/master/progress-tracker.js) :
-Copies files. Keeps track of upload progress while uploading source file content to a set destination.
-Node.js, Readable/writable streams, stream pipe 
+Node.js(Readable/writable streams & stream pipe): Copies files. Keeps track of upload progress while uploading source file content to a set destination.
+
