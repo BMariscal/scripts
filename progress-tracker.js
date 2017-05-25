@@ -1,7 +1,7 @@
 //To run:
 
 //open two terminal tabs. In the first one:
-// node upload-progress.js
+// node progress-tracker.js
 //in the second one:
 //$curl --upload-file large_file.jpg http://localhost:8080
 //note: change "large_file.jpg" to the name of the file you want to upload
