@@ -19,3 +19,8 @@ Scripts use the <b>bart api</b>. The bart api uses a standard XML output. <em>I 
  
  ## [profanity filter](https://github.com/BMariscal/scripts/tree/master/profanityFilter) :
  Script filters profanities from text file. 
+
+
+## [file upload progress tracker]() :
+Copies files. Keeps track of upload progress while uploading source file content to a set destination.
+Node.js, Readable/writable streams, stream pipe 
