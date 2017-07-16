@@ -1,10 +1,11 @@
-//To run:
+/*To run:
 
-//open two terminal tabs. In the first one:
-// node progress-tracker.js
-//in the second one:
-//$curl --upload-file large_file.jpg http://localhost:8080
-//note: change "large_file.jpg" to the name of the file you want to upload
+open two terminal tabs.
+In the first one, enter:
+        node progress-tracker.js
+In the second one, enter:
+        $curl --upload-file large_file.jpg http://localhost:8080
+note: change "large_file.jpg" to the name of the file you want to upload*/
 
 
 var fs = require('fs');
@@ -18,11 +19,10 @@ http.createServer(function(request, response){
     request.on('readable', function(){ //listening to the readable event. Uses the readable event to keep track of progress
         var chunk = null; 
         //loops through and reads each of the chunks from the request
-        while(null !== (chunk = request.read())){ 
+        while (null !== (chunk = request.read())){ 
             uploadedBytes += chunk.length;//inside of while loop, we increment the uploadedbytes variable with the length of each chunk
             var progress = (uploadedBytes / fileBytes) * 100; //then we calculate progress by dividing uploadedbytes by filebytes and multiply it by 100
-            response.write("progress: " + parseInt(progress, 10)+ "%\n");//then we send the progress back to the client using the response.write function. parseInt to round progress to an integer
-
+            response.write("progress: " + parseInt(progress, 10)+ "%\n");//then we send the progress back to the client using the response.write function. 
 
         }
 
@@ -31,7 +31,7 @@ http.createServer(function(request, response){
     request.pipe(newFile); //pipe is taking care of the actual uploading 
 
     request.on('end', function(){ //listens to end event
-      response.end('uploaded!'); //closes the response with an "uploaded!" string
+      response.end('file uploaded!'); //closes the response with a "file uploaded!" string
     })
 
 
